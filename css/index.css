@@ -59,7 +59,7 @@
 /* ----- Welcome to CodeSprout! ----- */
 .welcome-title {
     position: absolute;
-    top: 145px;
+    top: 130px;
     width: 100%;
     text-align: center;
     z-index: 1;
@@ -67,21 +67,18 @@
 
 .welcome-description {
     position: absolute;
-    top: 200px;
+    top: 180px;
     width: 100%;
     text-align: center;
     z-index: 1;
 }
 
 /* ===== Content 1 ===== */
-.path-group {
+.path-description-item {
     position: relative;
     top: 695px;
-    text-align: center;
-}
-
-.path-description-item {
     width: 100%;
+    text-align: center;
 }
 
 /* ----- Doorframes ----- */
@@ -264,19 +261,20 @@
 
 .text-right-group {
     position: relative;
+    top: -4px;
     left: 510px;
 }
 
 /* ===== Motivation content ===== */
 .motivation-header-item {
     position: relative;
-    top: -5px;
+    top: 20px;
     margin: 0px;
 }
 
 .info-group {
     position: relative;
-    top: 20px;
+    top: 45px;
     font-size: 16px;
     margin: 0px;
 }
@@ -300,7 +298,7 @@
 
 .garden-sign-item {
     position: absolute;
-    top: 105px;
+    top: 110px;
     left: 720px;
     width: 330px;
 }
@@ -314,34 +312,34 @@
 .garden-table-item {
     position: absolute;
     top: 1025px;
-    left: 350px;
+    left: 360px;
     width: 700px;
 }
 
 .watering-plants-item {
     position: absolute;
-    top: 1415px;
+    top: 1445px;
     left: -15px;
     width: 400px;
 }
 
 .stay-positive-item {
     position: absolute;
-    top: 1945px;
+    top: 1955px;
     left: 590px;
     width: 400px;
 }
 
 .good-days-ahead-item {
     position: absolute;
-    top: 2075px;
+    top: 2085px;
     left: 510px;
     width: 140px;
 }
 
 .seedling-item {
     position: absolute;
-    top: 2435px;
+    top: 2425px;
     left: -45px;
     width: 400px;
 }
