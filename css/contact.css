@@ -12,6 +12,14 @@
     height: 676.5px;
 }
 
+.contact-title {
+    position: absolute;
+    top: 529px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
 .personal-information-group {
     display: flex;
     flex-direction: column;
@@ -82,8 +90,8 @@
 .platform-link-group {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
-    top: 505px;
+    position: absolute;
+    top: 532px;
     left: 234px;
     column-gap: 15px;
 }

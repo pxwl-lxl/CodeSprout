@@ -40,19 +40,19 @@ header {
     flex-wrap: wrap;
     position: relative;
     top: 16px;
-    left: 238px;
+    left: 245px;
     column-gap: 40px;
 }
 
 .nav-name {
     position: relative;
-    left: -126px;
+    left: -133px;
 }
 
 .sprout {
     position: relative;
     top: -28px;
-    left: -57px;
+    left: -64px;
     width: 90px;
 }
 
@@ -70,12 +70,20 @@ a:hover {
     color: #157DD0;
 }
 
-.hover {
+.hover-invert {
     transition: filter 0.3s ease;
 }
 
-.hover:hover {
+.hover-invert:hover {
     filter: invert(1);
+}
+
+.hover-scale {
+    transition: filter 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.01);
 }
 
 li {
@@ -91,20 +99,14 @@ p {
 }
 
 h1 {
-    font-size: 31px;
+    font-size: 30px;
+    margin: 0;
     text-shadow: 0px 2px 4px black;
 }
 
 h2 {
     font-size: 30px;
-    font-weight: normal;
     margin: 0;
-    text-shadow: 0px 2px 4px black;
-}
-
-h3 {
-    font-size: 30px;
-    font-weight: bold;
     text-shadow: 0px 2px 4px black;
 }
 
@@ -277,7 +279,7 @@ textarea::placeholder {
 .recommendation-box-1 {
     position: relative;
     width: 1200px;
-    min-height: 1165px;
+    min-height: 1170px;
     padding: 30px 75px;
     background-color: transparent;
     border: 2px solid #444444;
@@ -287,7 +289,7 @@ textarea::placeholder {
 .recommendation-box-2 {
     position: relative;
     width: 1200px;
-    min-height: 3485px;
+    min-height: 3570px;
     padding: 30px 75px;
     background-color: transparent;
     border: 2px solid #444444;
@@ -381,8 +383,15 @@ textarea::placeholder {
 footer {
     position: relative;
     top: -25px;
+}
+
+footer p {
     width: 100%;
     text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    text-shadow: 0px 2px 4px black;
 }
 
 .copyright {
