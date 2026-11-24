@@ -75,7 +75,7 @@
 - This version was before I checked the code for redundancy.
 
 [2.6.0] - 11/24/26
-- Clickable images sa Tutorials/Resources
+- Clickable images sa Tutorials/Resources.
 
 # Suggestions
 - walang h1 yung ibang html ga jump sa h2
