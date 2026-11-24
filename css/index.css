@@ -1,0 +1,347 @@
+/* ===== Front Page ===== */
+.main-background {
+    position: absolute;
+    top: 60px;
+    left: -165px;
+    height: 620px;
+}
+
+.grayscale {
+    filter: grayscale(1);
+}
+
+/* ----- Portal ----- */
+.main-doorframe {
+    position: absolute;
+    top: 217px;
+    left: 450px;
+    width: 300px;
+    z-index: 3;
+}
+
+.main-portal {
+    position: absolute;
+    top: 264px;
+    left: 456px;
+    width: 290px;
+    z-index: 2;
+}
+
+/* ----- Blue background behind portal ----- */
+.main-portal-background {
+    position: absolute;
+    top: 277px;
+    left: 530px;
+    width: 130px;
+    height: 270px;
+    background-color: #157DD0;
+    z-index: 1;
+}
+
+/* ----- Clickable square ----- */
+.main-clickable-square {
+    position: absolute;
+    top: 266px;
+    left: 530px;
+    width: 140px;
+    height: 292px;
+    background-color: #000000;
+    opacity: 0.1;
+    z-index: 3;
+}
+
+/* ----- Header navigation target ----- */
+#tutorials-resources-id {
+    position: absolute;
+    top: 692px;
+}
+
+/* ----- Welcome to CodeSprout! ----- */
+.welcome-title {
+    position: absolute;
+    top: 145px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.welcome-description {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+/* ===== Content 1 ===== */
+.path-group {
+    position: relative;
+    top: 695px;
+    text-align: center;
+}
+
+.path-description-item {
+    width: 100%;
+}
+
+/* ----- Doorframes ----- */
+.doorframes-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 695px;
+    column-gap: 90px;
+    row-gap: 55px;
+    z-index: 3;
+}
+
+.doorframe-item {
+    width: 190px;
+}
+
+/* ----- Blue and gray portals */
+.portals-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 210px;
+    column-gap: 100px;
+    row-gap: 105px;
+    z-index: 2;
+}
+
+.portal-item {
+    width: 180px;
+}
+
+/* ----- Blue and gray backgrounds behind portal ----- */
+.portal-backgrounds-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: -245px;
+    column-gap: 190px;
+    row-gap: 120px;
+    z-index: 1;
+}
+
+.portal-background-item {
+    width: 90px;
+    height: 165px;
+    background-color: #157DD0;
+}
+
+/* ----- Clickable squares ----- */
+.portal-links-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 850px;
+    column-gap: 190px;
+    row-gap: 102px;
+    z-index: 3;
+}
+
+.portal-link-item {
+    width: 90px;
+    height: 184px;
+    background-color: #000000;
+    opacity: 0.1;
+}
+
+/* ----- Bush set below each doorframe ----- */
+.doorframe-bushes-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: -617px;
+    left: -5px;
+    column-gap: 130px;
+    row-gap: 166px;
+}
+
+.doorframe-bush-item {
+    width: 150px;
+}
+
+/* ----- Bush set ----- */
+.decorative-bushes-group {
+    position: relative;
+}
+
+.large-bush-left-item {
+    position: relative;
+    top: -705px;
+    left: -215px;
+    width: 500px;
+}
+
+.medium-bush-center-item {
+    position: relative;
+    top: -643px;
+    left: -250px;
+    width: 500px;
+    transform: scaleX(-1);
+}
+
+.small-bush-center-item {
+    position: relative;
+    top: -947px;
+    left: 675px;
+    width: 300px;
+}
+
+.large-bush-right-item {
+    position: relative;
+    top: -950px;
+    left: 610px;
+    width: 500px;
+}
+
+/* ----- Languages ----- */
+.language-headers-group {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -1672px;
+    left: 116px;
+    column-gap: 213px;
+}
+
+.python-item {
+    position: relative;
+    top: 2px;
+    left: 17px;
+    font-size: 28px;
+}
+
+.soon-group {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -1423px;
+    left: 145px;
+    column-gap: 208px;
+}
+
+/* ===== Content 2 ===== */
+.motivation-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -935px;
+}
+
+/* ----- Seperate box ----- */
+.motivation-box-container {
+    position: relative;
+    width: 1200px;
+    padding: 30px 135px;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-bottom: -695px;
+}
+
+/* ----- Grouped content ----- */
+.grouped-motivation-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    row-gap: 300px;
+}
+
+/* ----- Text content on the left/right ----- */
+.text-left-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.text-right-group {
+    position: relative;
+    left: 510px;
+}
+
+/* ===== Motivation content ===== */
+.motivation-header-item {
+    position: relative;
+    top: -5px;
+    margin: 0px;
+}
+
+.info-group {
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.info-item {
+    position: relative;
+    left: -25px;
+}
+
+/* ----- Motivation photos ----- */
+.motivation-photos-group {
+    position: absolute;
+    top: -225px;
+}
+
+.walking-people-item {
+    position: absolute;
+    left: 345px;
+    width: 500px;
+}
+
+.garden-sign-item {
+    position: absolute;
+    top: 105px;
+    left: 720px;
+    width: 330px;
+}
+
+.dancing-plant-item {
+    position: absolute;
+    top: 601px;
+    left: -85px;
+}
+
+.garden-table-item {
+    position: absolute;
+    top: 1025px;
+    left: 350px;
+    width: 700px;
+}
+
+.watering-plants-item {
+    position: absolute;
+    top: 1415px;
+    left: -15px;
+    width: 400px;
+}
+
+.stay-positive-item {
+    position: absolute;
+    top: 1945px;
+    left: 590px;
+    width: 400px;
+}
+
+.good-days-ahead-item {
+    position: absolute;
+    top: 2075px;
+    left: 510px;
+    width: 140px;
+}
+
+.seedling-item {
+    position: absolute;
+    top: 2435px;
+    left: -45px;
+    width: 400px;
+}

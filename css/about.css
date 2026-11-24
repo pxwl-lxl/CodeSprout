@@ -1,0 +1,50 @@
+/* ===== Front page ===== */
+.main-background {
+    position: absolute;
+    top: 60px;
+    left: -165px;
+    width: auto;
+    height: 620px;
+}
+
+/* ===== Content 1 ===== */
+.about-section {
+    height: 676.5px;
+}
+
+.header-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    left: 77px;
+    row-gap: 180px;
+    z-index: 1;
+}
+
+.info-group {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -145px;
+    left: 77px;
+    width: 600px;
+    row-gap: 85px;
+    column-gap: 100px;
+    z-index: 1;
+}
+
+.info-item {
+    width: 600px;
+}
+
+.table-item {
+    width: 1200px;
+    border-collapse: collapse;
+}
+
+.table-item th,
+.table-item td {
+    padding: 12px;
+    text-align: center;
+}
