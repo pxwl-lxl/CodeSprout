@@ -48,14 +48,3 @@
     padding: 12px;
     text-align: center;
 }
-
-.ruler5 {
-    position: absolute;
-    background-color: red;
-    opacity: 0.6;
-    height: 7px;
-    width: 8000px;
-    top: 159px;
-    left: -200px;
-    z-index: 100;
-}
