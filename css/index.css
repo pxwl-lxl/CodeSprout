@@ -31,7 +31,7 @@
 .main-portal-background {
     position: absolute;
     top: 277px;
-    left: 530px;
+    left: 535px;
     width: 130px;
     height: 270px;
     background-color: #157DD0;
@@ -118,7 +118,7 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    top: -245px;
+    top: -250px;
     column-gap: 190px;
     row-gap: 120px;
     z-index: 1;
